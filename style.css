@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.prvidio {
+    display: flex;
+}
+
+.lijeva {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #7f8fa6;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+
+
+.slika {
+    position: relative;
+    width: 50%;
+}
+
+.slika img {
+    width: 100%;
+    height: auto;
+}
+
+.prvo .drugo .trece:hover {
+    background-color:#7f8fa6;
+}
+
+.prvo {
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+     border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.drugo {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+     border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.trece {
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+     border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button {
+    padding: 1em;
+    border-radius: 0.3em;
+    border: 0px solid black;
+    cursor: pointer;
+    background-color: #718093;
+
+}
+
+main {
+    align-items: center;    
+    display: flex;
+
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.skills {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-left: 10em;
+    padding-right: 10em;
+    background-color: #dcdde1;
+    padding: 5em;
+}
+
+.experience {
+    width: 50%;
+    margin-right: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-right: 10em;
+    padding-left: 10em;
+    background-color: #718093;
+    padding: 5em;
+
+}
+
+.fa-instagram {
+    color: #2f3640;
+}
+
+.fa-facebook {
+    color: #2f3640;
+}
+
+.fa-envelope {
+    color: #2f3640;
+}
+
